@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2d9a458f258746f291bc73d08b18b1d7" Name="Diagram1" ZoomLevel="46">
+        <EntityTypeShape EntityType="isilanimDbModel.C__MigrationHistory" Width="1.5" PointX="9.75" PointY="5.75" />
+        <EntityTypeShape EntityType="isilanimDbModel.Adays" Width="1.5" PointX="0.75" PointY="5.5" />
+        <EntityTypeShape EntityType="isilanimDbModel.Cities" Width="1.5" PointX="7.75" PointY="1.75" />
+        <EntityTypeShape EntityType="isilanimDbModel.Cvs" Width="1.5" PointX="3" PointY="7.25" />
+        <EntityTypeShape EntityType="isilanimDbModel.Calisans" Width="1.5" PointX="7.75" PointY="5.25" />
+        <EntityTypeShape EntityType="isilanimDbModel.JobAdverts" Width="1.5" PointX="10" PointY="1" />
+        <EntityTypeShape EntityType="isilanimDbModel.JobExperiences" Width="1.5" PointX="5.25" PointY="7.5" />
+        <EntityTypeShape EntityType="isilanimDbModel.Menu" Width="1.5" PointX="7.75" PointY="9" />
+        <EntityTypeShape EntityType="isilanimDbModel.Schools" Width="1.5" PointX="5.25" PointY="10.5" />
+        <EntityTypeShape EntityType="isilanimDbModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="10.75" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_Cvs_dbo_Adays_Aday_Id" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_JobAdverts_dbo_Cities_City_CityId" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_JobExperiences_dbo_Cvs_CvId" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_Schools_dbo_Cvs_cv_id" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_JobAdverts_dbo_Calisans_Calisan_CalisansId" />
+        <EntityTypeShape EntityType="isilanimDbModel.Employers" Width="1.5" PointX="10.375" PointY="9" />
+        <EntityTypeShape EntityType="isilanimDbModel.Events" Width="1.5" PointX="3" PointY="3.625" />
+        <EntityTypeShape EntityType="isilanimDbModel.isTecrubesi" Width="1.5" PointX="5.25" PointY="3.625" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_Cvs_dbo_Candidates_Candidate_Id" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_Events_dbo_Candidates_Candidate_Id" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_JobExperiences_dbo_Cvs_CvId1" />
+        <AssociationConnector Association="isilanimDbModel.FK_dbo_JobAdverts_dbo_Employers_Employer_EmployersId" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
